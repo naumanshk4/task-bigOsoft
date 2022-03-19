@@ -12,7 +12,7 @@ export function Main() {
         <>
             <div className='bg-grey'>
                
-                <ClippedDrawer />
+                {/* <ClippedDrawer /> */}
                 {/* Nauman */}
 
             </div>

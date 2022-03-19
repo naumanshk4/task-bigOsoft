@@ -23,6 +23,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import {Row,Col} from "react-bootstrap"
 
 const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -207,6 +208,14 @@ function ResponsiveDrawer(props) {
           eleifend. Commodo viverra maecenas accumsan lacus vel facilisis. Nulla
           posuere sollicitudin aliquam ultrices sagittis orci a.
         </Typography>
+        <Row>
+          <Col>
+          nauman
+          </Col>
+          <Col>
+          khalid
+          </Col>
+        </Row>
       </Box>
     </Box>
   );
