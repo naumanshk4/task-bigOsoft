@@ -152,6 +152,7 @@ function ResponsiveDrawer(props) {
         {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
         <Drawer
           container={container}
+          style={{background:"black"}}
           variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}

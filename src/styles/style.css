@@ -1,0 +1,141 @@
+.dark-blue{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding-top: 15%;
+}
+
+.side-container{
+    background-color: rgba(0, 0, 0, 0.726);
+    width: 100%;
+    height: 100vh;
+    z-index: 999999;
+}
+
+.top-nav{
+    height:75px;
+    background-color: rgba(0, 0, 0, 0.726);
+    width: 100%;
+    padding-left: 40px;
+
+
+}
+.css-d9ml5t-MuiDrawer-docked .MuiDrawer-paper{
+    background-color: rgba(0, 0, 0, 0.726) !important;
+
+}
+
+.pallet-container{
+    background-color: blue;
+    width: 580px;
+    height: 580px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+  
+}
+.skew-container{
+    background-color: black;
+    width: 480px;
+    height: 480px;
+    margin: auto;
+    transform: rotate(16deg); /* Equal to rotateZ(45deg) */
+    position: absolute;
+    top: 26px;
+    left: 0;
+    right: 0;
+
+  
+}
+
+.padding-left-55{
+    padding-left: 40px;
+}
+
+.red-circle{
+    width: 20px;
+    height: 20px;
+    border:2px solid lightseagreen;
+    border-radius: 50px;
+}
+.red-square{
+    width: 20px;
+    height: 20px;
+    border:2px solid red;
+    /* border-radius: 50px; */
+}
+
+
+.mt-40{
+    margin-top: 40px;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+.pt-60{
+    padding-top: 40px;
+}
+
+.mt-20{
+    margin-top: 20px;
+}
+.side-items{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.flex{
+    display: flex;
+}
+
+.dull{
+    color: gray !important;
+}
+
+.triangle-left {
+    width: 10px;
+    height: 10px;
+    border-top: 23px solid transparent;
+    border-bottom: 23px solid transparent;
+    border-right: 23px solid red;
+    transform:rotate(271deg);
+
+}
+
+.inner-triangle {
+    position: relative;
+    top: -20px;
+    left: 2px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid rgba(0, 0, 0, 0.726);
+    
+    /* transform:rotate(271deg); */
+}
+
+.user-input-card- {
+    background: #FFFFFF !important;
+  border: 1px solid #D1D5DB !important;
+  box-sizing: border-box !important;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.02) !important;
+  border-radius: 5px !important;
+  }
+  
+  .user-input-card-:before {
+    border-bottom: none !important;
+  }
+  .user-input-card-:after {
+    border-bottom: none !important;
+  }
+  
+  .fieldsAccountDetails .user-input-card-{
+    border-color: rgba(0, 0, 0, 0.1) !important;
+  }
